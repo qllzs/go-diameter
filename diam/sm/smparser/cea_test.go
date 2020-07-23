@@ -7,10 +7,10 @@ package smparser
 import (
 	"testing"
 
-	"github.com/fiorix/go-diameter/diam"
-	"github.com/fiorix/go-diameter/diam/avp"
-	"github.com/fiorix/go-diameter/diam/datatype"
-	"github.com/fiorix/go-diameter/diam/dict"
+	"github.com/qllzs/go-diameter/diam"
+	"github.com/qllzs/go-diameter/diam/avp"
+	"github.com/qllzs/go-diameter/diam/datatype"
+	"github.com/qllzs/go-diameter/diam/dict"
 )
 
 func TestCEA_MissingResultCode(t *testing.T) {

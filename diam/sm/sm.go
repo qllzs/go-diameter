@@ -7,10 +7,10 @@ package sm
 import (
 	"fmt"
 
-	"github.com/fiorix/go-diameter/diam"
-	"github.com/fiorix/go-diameter/diam/datatype"
-	"github.com/fiorix/go-diameter/diam/dict"
-	"github.com/fiorix/go-diameter/diam/sm/smpeer"
+	"github.com/qllzs/go-diameter/diam"
+	"github.com/qllzs/go-diameter/diam/datatype"
+	"github.com/qllzs/go-diameter/diam/dict"
+	"github.com/qllzs/go-diameter/diam/sm/smpeer"
 )
 
 // SupportedApp holds properties of each locally supported App

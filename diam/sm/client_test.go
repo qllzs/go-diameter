@@ -11,12 +11,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/fiorix/go-diameter/diam"
-	"github.com/fiorix/go-diameter/diam/avp"
-	"github.com/fiorix/go-diameter/diam/datatype"
-	"github.com/fiorix/go-diameter/diam/diamtest"
-	"github.com/fiorix/go-diameter/diam/dict"
-	"github.com/fiorix/go-diameter/diam/sm/smparser"
+	"github.com/qllzs/go-diameter/diam"
+	"github.com/qllzs/go-diameter/diam/avp"
+	"github.com/qllzs/go-diameter/diam/datatype"
+	"github.com/qllzs/go-diameter/diam/diamtest"
+	"github.com/qllzs/go-diameter/diam/dict"
+	"github.com/qllzs/go-diameter/diam/sm/smparser"
 )
 
 func TestClient_Dial_MissingStateMachine(t *testing.T) {
